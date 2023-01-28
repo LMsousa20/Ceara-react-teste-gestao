@@ -1,0 +1,49 @@
+.background{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://img.freepik.com/fotos-gratis/estrada-vazia-com-luz-negra_400718-34.jpg?w=900&t=st=1674881414~exp=1674882014~hmac=2b58743bbc87787745f02a660471cb5a740db018ba7f7afb98c2434d24caa0d3');
+background-size: auto;
+}
+
+.container-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    background: radial-gradient(circle, rgba(199, 198, 198, 0.627) 0%, rgba(237, 236, 236, 0.808) 53%, rgba(236, 235, 236, 0.783) 54%, rgba(168, 192, 235, 0.529) 100%);
+    width: 85vw;
+    min-width: 270px;
+
+    border-radius: 21px;
+    padding: 35px;
+}
+
+.img{
+    border-radius: 21px;
+    height: 200px;
+    width: 200px;
+    margin: 35px;
+    background-color: rgb(5, 5, 242);
+}
+
+@media (min-width:650px){
+    .container{
+        flex-direction: row;
+    }
+
+    .img{
+       margin: 0px;
+    }
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content:space-around;  
+        width: 90vw;
+        max-width: 650px;
+    }
+}
+

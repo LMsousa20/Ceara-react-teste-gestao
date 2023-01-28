@@ -1,0 +1,15 @@
+.barra{
+    background-color: #01002f;
+    color: azure;
+    width: 25vw;
+    height: 80vh;
+    min-width: 100px;
+}
+
+.item-barra{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+    font-weight: 700;
+}

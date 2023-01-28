@@ -1,0 +1,6 @@
+.container-products{
+    border: 2px solid blue;
+    margin: 15px;
+    overflow: scroll;
+    height: 70vh;
+}
